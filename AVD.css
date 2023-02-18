@@ -6,3 +6,13 @@ p {
     text-align: justify;
       }
 //2
+.fullCard {
+
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px 5px;
+    padding: 4px;
+    width: 245px;
+  }
+  //3
+  
