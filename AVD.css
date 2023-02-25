@@ -157,4 +157,16 @@ line-height: 25px;
 </style>
 
 //20
+<style>
+  a {
+    color: #000;
+  }
+a:hover {
+    color: blue;
+  }
+
+
+</style>
+
+//21
 
