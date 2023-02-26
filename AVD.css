@@ -293,3 +293,16 @@ margin: auto;
 </style>
 
 //31
+.green {
+  background-color: hsl(120, 100%, 50%);
+  }
+
+.cyan {
+  background-color: hsl(300, 100%, 50%);
+}
+
+.blue {
+  background-color: hsl(180, 100%, 50%);
+}
+
+//32
