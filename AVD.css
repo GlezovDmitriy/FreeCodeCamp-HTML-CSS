@@ -257,3 +257,39 @@ margin: auto;
 </style>
 
 //29
+.orange {
+  background-color: #FF7F00;
+}
+
+.cyan {
+  background-color: #00FFFF;
+}
+
+.raspberry {
+  background-color: #FF007F;
+}
+//30
+
+<style>
+  body {
+    background-color: white;
+  }
+  header {
+    background-color: #09A7A1;
+    color: white;
+    padding: 0.25em;
+  }
+  h2 {
+    color: #09A7A1;
+  }
+  button {
+    background-color: #FF790E;
+  }
+  footer {
+    background-color: #09A7A1;
+    color: white;
+    padding: 0.5em;
+  }
+</style>
+
+//31
