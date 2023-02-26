@@ -178,3 +178,37 @@ a:hover {
 
 //22
 
+<style>
+  h2 {
+    position: relative;
+    left: 15px;
+    bottom: 10px;
+
+
+  }
+
+  //23
+
+  <style>
+  #searchbar {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+  }
+  section {
+    position: relative;
+  }
+</style>
+
+//24
+#navbar {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  
+  
+      width: 100%;
+      background-color: #767676;
+    }
+//25
+
