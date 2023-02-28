@@ -346,3 +346,12 @@ background: linear-gradient(35deg, #CCFFFF, #FFCCCC )
 background: url(https://cdn-media-1.freecodecamp.org/imgr/MJAkxbh.png);
   }
 </style>
+
+//36
+
+#ball2 {
+  left: 65%;
+transform: scale(1.5);
+}
+
+//37
