@@ -371,3 +371,14 @@ div:hover {
   transform: scale(1.1);
 }
 </style>
+
+//38
+
+#bottom {
+  background-color: blue;
+  transform: skewX(24deg);
+
+}
+
+//39
+
