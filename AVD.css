@@ -595,3 +595,10 @@ animation-timing-function: ease-out;
   left: 27%;
   animation-timing-function: cubic-bezier(0,0,0.58,1);
 }
+
+//53
+#green {
+  background: green;
+  left: 75%;
+  animation-timing-function: cubic-bezier(0.311, 0.441, 0.444, 1.649);
+}
