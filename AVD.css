@@ -530,3 +530,12 @@ left: -25px;
 
 //46
 
+@keyframes fade {
+  50% {
+    left: 60%;
+opacity: 0.1;
+  }
+}
+
+//47
+
