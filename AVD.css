@@ -565,3 +565,10 @@ opacity: 0.1;
 }
 //49
 
+.star-3 {
+  margin-top: 10%;
+  margin-left: 50%;
+  animation-duration: 1.1s;
+  animation-name: twinkle;
+}
+//50
