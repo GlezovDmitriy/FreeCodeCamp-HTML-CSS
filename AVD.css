@@ -500,3 +500,10 @@ animation-name: rainbow;
 
 //44
 
+button:hover {
+  animation-name: background-color;
+  animation-duration: 500ms;
+  /* Only change code below this line */
+animation-fill-mode: forwards;
+  /* Only change code above this line */
+}
