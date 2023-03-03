@@ -539,3 +539,21 @@ opacity: 0.1;
 
 //47
 
+#ball {
+  width: 100px;
+  height: 100px;
+  margin: 50px auto;
+  position: relative;
+  border-radius: 50%;
+  background: linear-gradient(
+    35deg,
+    #ccffff,
+    #ffcccc
+  );
+  animation-name: bounce;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+//48
+
