@@ -109,3 +109,9 @@ flex-direction: column;
 justify-content: center;
 }
 //9
+header .profile-name {
+  display: flex;
+  flex-direction: column;
+justify-content: flex-start;
+  margin-left: 10px;
+}
