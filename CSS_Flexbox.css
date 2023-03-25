@@ -115,3 +115,11 @@ header .profile-name {
 justify-content: flex-start;
   margin-left: 10px;
 }
+//10
+#box-container {
+  background: gray;
+  display: flex;
+  height: 500px;
+  align-items: center
+}
+//11
