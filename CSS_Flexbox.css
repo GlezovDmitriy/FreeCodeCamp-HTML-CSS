@@ -123,3 +123,9 @@ justify-content: flex-start;
   align-items: center
 }
 //11
+header .follow-btn {
+  display: flex;
+  align-items: center;
+  margin: 0 0 0 auto;
+}
+//12
