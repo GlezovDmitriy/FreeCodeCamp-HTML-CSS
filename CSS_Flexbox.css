@@ -163,3 +163,16 @@ header .follow-btn {
 }
 
 //15
+#box-1 {
+  background-color: dodgerblue;
+  height: 200px;
+  flex-basis: 10em;
+}
+
+#box-2 {
+  background-color: orangered;
+  height: 200px;
+  flex-basis: 20em;
+}
+
+//16
