@@ -46,3 +46,23 @@ grid-column: 2 / 4;
 
     /* Only change code above this line */
   }
+
+  //8 горизонтальные линии, которые вы хотите, чтобы элемент начинался и заканчивался
+
+  grid-row: 2/4;
+
+  //9 Выровнять элемент по горизонтали с помощью justify-self
+
+  justify-self: center;
+
+  //10 Выровнять элемент по вертикали с помощью align-self
+
+  align-self: end;
+
+  //11 Выровняйте все элементы по горизонтали, используя justify-items
+
+  justify-items: center;
+
+  //12 Выровнять все элементы по вертикали с помощью align-items
+
+  align-items: end;
