@@ -11,4 +11,38 @@ grid-template-columns: 100px 100px 100px;
     /* Only change code above this line */
   }
 
-//3
+//3 
+
+ /* Only change code below this line */
+ grid-template-rows: 50px 50px;
+    
+ /* Only change code above this line */
+
+//4
+/* Only change code below this line */
+
+grid-template-columns: 1fr 100px 2fr ;
+
+/* Only change code above this line */
+
+//5 разрыв между строками, используя grid-row-gap
+// разрыв между стодбцами, используя grid-column-gap
+/* Only change code below this line */
+grid-row-gap: 5px;
+grid-column-gap: 5px;   
+    
+    /* Only change code above this line */
+
+//6 оно будет использовать первое для установки промежутка между строками и второе значение для столбцов.
+
+grid-gap: 10px 20px;
+
+//7 grid-columnсвойство в сочетании с номерами строк, с которых вы хотите, чтобы элемент начинался и заканчивался.
+
+.item5 {
+    background: PaleGreen;
+    /* Only change code below this line */
+grid-column: 2 / 4;
+
+    /* Only change code above this line */
+  }
