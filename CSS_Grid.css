@@ -25,19 +25,19 @@ grid-template-columns: 1fr 100px 2fr ;
 
 /* Only change code above this line */
 
-//5 разрыв между строками, используя grid-row-gap
-// разрыв между стодбцами, используя grid-column-gap
+/* //5 разрыв между строками, используя grid-row-gap
+// разрыв между стодбцами, используя grid-column-gap */
 /* Only change code below this line */
 grid-row-gap: 5px;
 grid-column-gap: 5px;   
     
     /* Only change code above this line */
 
-//6 оно будет использовать первое для установки промежутка между строками и второе значение для столбцов.
+/* //6 оно будет использовать первое для установки промежутка между строками и второе значение для столбцов. */
 
 grid-gap: 10px 20px;
 
-//7 grid-columnсвойство в сочетании с номерами строк, с которых вы хотите, чтобы элемент начинался и заканчивался.
+/* //7 grid-columnсвойство в сочетании с номерами строк, с которых вы хотите, чтобы элемент начинался и заканчивался. */
 
 .item5 {
     background: PaleGreen;
@@ -47,22 +47,48 @@ grid-column: 2 / 4;
     /* Only change code above this line */
   }
 
-  //8 горизонтальные линии, которые вы хотите, чтобы элемент начинался и заканчивался
+  /* //8 горизонтальные линии, которые вы хотите, чтобы элемент начинался и заканчивался */
 
   grid-row: 2/4;
 
-  //9 Выровнять элемент по горизонтали с помощью justify-self
+  /* //9 Выровнять элемент по горизонтали с помощью justify-self */
 
   justify-self: center;
 
-  //10 Выровнять элемент по вертикали с помощью align-self
+  /* //10 Выровнять элемент по вертикали с помощью align-self */
 
   align-self: end;
 
-  //11 Выровняйте все элементы по горизонтали, используя justify-items
+  /* //11 Выровняйте все элементы по горизонтали, используя justify-items */
 
   justify-items: center;
 
-  //12 Выровнять все элементы по вертикали с помощью align-items
+  /* //12 Выровнять все элементы по вертикали с помощью align-items */
 
   align-items: end;
+
+  /* 13 grid-template-areas: */
+  /* "header header header"
+  "advert content content"
+  "advert footer footer";
+Приведенный выше код группирует ячейки сетки в четыре области:
+ header, advert, contentи footer. Каждое слово представляет ячейку,
+  а каждая пара кавычек представляет строку. */
+  grid-template-areas:
+  /* Only change code below this line */
+    "header header header"
+    "advert content content"
+    "footer footer footer";
+  /* Only change code above this line */
+
+  /* 14 После создания шаблона области для контейнера сетки,
+   как показано в предыдущем задании, вы можете поместить элемент
+    в настраиваемую область, указав имя, которое вы ему дали. 
+    Для этого вы используете grid-areaсвойство элемента следующим образом:
+
+.item1 {
+  grid-area: header;
+}
+*/
+
+
