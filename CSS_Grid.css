@@ -122,3 +122,6 @@ grid-template-columns: 100px minmax(50px, 200px);
 grid-template-columns: repeat(3, minmax(90px, 1fr));
 
 
+//18 Создавайте гибкие макеты с помощью автоподбора
+
+grid-template-columns: repeat(auto-fit, minmax(60px, 1fr));
