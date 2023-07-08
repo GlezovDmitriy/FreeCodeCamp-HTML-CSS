@@ -65,17 +65,17 @@ h1, h2 {
 footer {
   font-size: 14px;
 }
-
+/* цвет ссылки */
 a {
   color: black;
 }
-
+/* цвет ссылки при посещении */
 a:visited {
   color: grey;
 }
-
+/* цвет ссылки при наведении */
 a:hover {
   color: brown;
 }
-
+/* цвет ссылки при клике по ней */
 a:active { color: white; }
